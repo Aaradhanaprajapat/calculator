@@ -1,0 +1,48 @@
+#calculator{
+    width: 320px;
+    padding: 5px;
+}
+#display{
+    margin: 10px;
+    padding: 0 0 0 15px;
+    width: 88%;
+    height: 60px;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(0, 0, 0, 0.605);
+    background: transparent;
+}
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    border-radius: 13px;
+    margin: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1877801464/display_1500/stock-photo-gradient-color-basic-math-operation-symbols-and-geometry-shape-on-white-background-d-render-1877801464.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#equal{
+    width: 128px;
+    background-color: rgba(0, 93, 136, 0.7);
+    border: none;
+}
+.button:hover{
+    border-color: rgba(0, 93, 136, 0.2);   
+}
+#equal:hover{
+    background-color: rgba(0, 93, 136, 0.4);
+}
